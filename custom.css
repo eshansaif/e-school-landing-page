@@ -1,0 +1,162 @@
+body{
+
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    margin: 0px;
+    background-color: #F0FFF0;
+    /* height: 576px; */
+}
+
+.navbar .green-button{
+    width: 104px;
+}
+
+.green-button{
+    
+    padding: 12px 28px;
+    background-color: #21B573;
+    border-radius: 33px;
+    text-align: center;
+    color: white !important;
+ }
+
+ .orange-text{
+     color: #FD511A;
+ }
+
+ /* .header-bottom{
+     padding: 50px;
+ } */
+
+ #home-section {
+    height: 580px;
+    background-color: #F0FFF0;
+}
+
+#home-section .home-section-left .learn {
+    color: #FD511A;
+}
+
+
+@media (max-width: 575.98px) {
+    .home-section-left h1 {
+        font-size: 25px;
+    }
+
+    .e-school-btn {
+        background: #21B573;
+        padding: 8px 22px;
+        border-radius: 33px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+}
+
+.book-section {
+    padding: 50px 0px;
+}
+
+.book-section .book-box {
+    background: #F8FFFB;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    padding: 47px 5px;
+    transition: 0.6s all linear;
+}
+
+.book-section .book-box:hover {
+    background-color: lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.book-section .book-box img {
+    width: 66px;
+    height: 85px;
+}
+
+.book-box h4 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.#online-courses .course {
+    max-width: 370px;
+    max-height: 483px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.icon img {
+    width: 20px;
+}
+
+@media (max-width: 575.98px) {
+    #online-courses h1 {
+        font-size: 30px;
+        margin: 15px 0px !important;
+    }
+
+}
+
+
+#testimonial {
+    padding: 80px 0px;
+    margin-top: 30px;
+}
+
+.carousel-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+.text {
+    font-style: italic;
+}
+
+@media (max-width: 575.98px) {
+
+    .carousel-item img {
+        width: 150px;
+        margin-left: 0px;
+    }
+}
+
+
+footer{
+    background-color: #282531;
+    color: #FFFFFF;
+    padding-top: 55px;
+    font-family: normal;
+
+}
+
+footer li{
+    list-style: none;
+}
+
+.copyright{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+ 
